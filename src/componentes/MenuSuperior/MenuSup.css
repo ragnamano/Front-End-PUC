@@ -1,0 +1,22 @@
+.MenuSup{
+    background-color: #D44B00;
+    height: 63px;
+    color: white;
+    font-size: 16px;
+    padding: 0 20px;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.superior__item {
+    color: #ffffff;
+    font-size: 24px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+

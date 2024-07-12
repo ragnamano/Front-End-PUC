@@ -1,0 +1,33 @@
+.Rodape{
+    background-color: #070617;
+    color: white;
+    font-size: 16px;
+    padding: 0 20px;
+    right: 0;
+    left: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 0;
+    text-align: center;
+}
+
+.Conteudo {
+    font-size: 24px;
+    padding: 8px 20px;
+    cursor: pointer;
+    flex-direction: column;
+    display: flex;
+}
+
+.Titulo{
+    color: #5B5A66;
+    font-size: 15px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.inferior__item {
+    text-decoration: none;
+    color: #929293;
+    margin-bottom: 8px;
+  }

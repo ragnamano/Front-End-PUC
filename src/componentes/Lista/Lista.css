@@ -1,0 +1,49 @@
+.retangulo {
+  border-radius: 10px; /* Bordas arredondadas */
+  overflow: hidden; /* Garante que o conteúdo não ultrapasse as bordas arredondadas */
+  width: 1054px; /* Largura do retângulo */
+  margin: 20px auto; /* Centraliza o retângulo na página */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.topo-cinza {
+  background-color: #5B5A66; /* Cor de fundo azul para o topo */
+  color: white; /* Texto branco */
+  padding: 10px; /* Espaçamento interno */
+}
+
+.titulo-branco {
+  margin: 0; /* Remove margem padrão do título */
+}
+
+.corpo-cinza {
+  background-color: #EEF0F9; /* Cor de fundo cinza para o corpo */
+  padding: 10px; /* Espaçamento interno */
+}
+
+.lista-branca {
+  list-style-type: none; /* Remove estilos padrão de lista */
+  padding: 0; /* Remove padding padrão de lista */
+}
+
+.item-lista {
+  display: flex; /* Faz os itens ficarem em uma única linha */
+  align-items: center; /* Alinha verticalmente os itens */
+  justify-content: space-between; /* Distribui os itens igualmente ao longo da linha */
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.titulo-itens {
+  display: flex; /* Faz os itens ficarem em uma única linha */
+  align-items: center; /* Alinha verticalmente os itens */
+  justify-content: space-between; /* Distribui os itens igualmente ao longo da linha */
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  flex: 1;
+}
+

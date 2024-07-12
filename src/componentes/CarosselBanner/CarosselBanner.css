@@ -1,0 +1,14 @@
+.Carossel-container {
+    width: 100%;
+    max-width: 1052px; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Centraliza o carrossel na página */
+    overflow: hidden; /* Esconde partes da imagem que excedem a largura do container */
+}
+
+.Carossel-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease; /* Adiciona uma transição suave ao trocar de imagem */
+    margin-top: 20px;
+}
